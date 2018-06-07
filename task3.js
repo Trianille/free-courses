@@ -1,5 +1,4 @@
 function timeGapsSum (t1, t2) {
-	//String.prototype.timeToReadible = function() {}
 	let sum = Number(t1) + Number(t2);
 	let ans = '';
 	
@@ -17,4 +16,5 @@ function timeGapsSum (t1, t2) {
 	
 	return ans = hoursDisplay + minutesDisplay + secondsDisplay;
 }
+
 process.stdout.write(timeGapsSum(process.argv[2], process.argv[3]));
